@@ -337,3 +337,29 @@
     opacity: 0;
   }
 }
+/* Add to your global.css or styles.css */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes progress {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(400%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 3s infinite;
+}
+
+.animate-progress {
+  animation: progress 2s ease-in-out infinite;
+}
