@@ -23,36 +23,37 @@ const BlogSection = () => {
   }, []);
 
   const blogs = [
-    {
-      id: 1,
-      title: 'The Future of Web Development: Trends to Watch in 2024',
-      excerpt: 'Explore the emerging technologies and frameworks that are shaping the future of web development, from AI-powered tools to edge computing.',
-      author: 'John Smith',
-      date: 'Dec 1, 2024',
-      readTime: '5 min read',
-      category: 'Technology',
-      image: 'blog1.jpg',
-    },
-    {
-      id: 2,
-      title: 'Building Scalable Mobile Apps: Best Practices Guide',
-      excerpt: 'Learn the essential strategies and architectural patterns for building mobile applications that can grow with your business.',
-      author: 'Emily Chen',
-      date: 'Nov 28, 2024',
-      readTime: '8 min read',
-      category: 'Mobile Development',
-      image: 'blog2.jpg',
-    },
-    {
-      id: 3,
-      title: 'UI/UX Design Principles for Higher Conversion Rates',
-      excerpt: 'Discover how thoughtful design decisions can dramatically improve user engagement and boost your conversion rates.',
-      author: 'Michael Brown',
-      date: 'Nov 25, 2024',
-      readTime: '6 min read',
-      category: 'Design',
-      image: '/blog3.jpg',
-    },
+   {
+  id: 1,
+  title: 'The Future of Web Development: Trends Shaping Modern Websites',
+  excerpt: 'Explore the latest web development trends including performance optimization, modern frameworks, and scalable architectures that are redefining digital experiences.',
+  author: 'Amit Verma',
+  date: 'Dec 1, 2024',
+  readTime: '5 min read',
+  category: 'Web Development',
+  image: 'blog1.jpg',
+},
+{
+  id: 2,
+  title: 'Why Mobile Responsiveness Is Critical for Business Growth',
+  excerpt: 'Learn how mobile-first and responsive design improves user experience, boosts SEO rankings, and increases conversions across all devices.',
+  author: 'Neha Sharma',
+  date: 'Nov 28, 2024',
+  readTime: '6 min read',
+  category: 'Responsive Design',
+  image: 'blog2.jpg',
+},
+{
+  id: 3,
+  title: 'UI/UX Design Principles That Drive Higher Conversions',
+  excerpt: 'Discover how clean layouts, intuitive navigation, and user-focused design decisions can significantly improve engagement and conversion rates.',
+  author: 'Rohit Mehta',
+  date: 'Nov 25, 2024',
+  readTime: '6 min read',
+  category: 'UI/UX Design',
+  image: '/blog3.jpg',
+},
+
   ];
 
   return (

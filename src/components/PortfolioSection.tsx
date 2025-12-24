@@ -12,13 +12,16 @@ type Project = [
 ];
 
 const projects: Project[] = [
-  [1,'AJH Contractors','web','Professional construction and renovation website with modern UI and fast performance.',['Next.js'],'/ajh.png','https://ajhcontractors.com'],
-  [2,'Infinity Construction NYC','web','Construction company website focused on NYC projects with clean layout and strong branding.',['Next.js'],'/infinity.png','https://infinityconstructionnyc.com'],
-  [3,'JS Aldo','web','Business website built with Next.js showcasing services and company profile.',['Next.js'],'/jsaldo.png','https://jsaldoconstruction.com'],
-  [4,'Lucianna Law','web','Law firm website with elegant design, responsive layout, and clear content structure.',['HTML','CSS','JavaScript'],'/lucianna.png','https://luciannalaw.com'],
-  [5,'Nick Roofing','web','Roofing services website optimized for speed, SEO, and lead generation.',['Next.js'],'/nick.png','https://nickroofing.com'],
-  [6,'SAS Roofing & Waterproofing','web','Corporate roofing and waterproofing website with modern UI and animations.',['Next.js'],'/sas.png','https://sasroofingwaterproofing.com'],
+  [1,'i-revive','web','Professional website redesign and optimization with modern UI, improved user experience, and fast performance.'
+,['Next.js'],'/i-revive.png','https://i-revive.com'],
+  [2,'Simply Smilez Dental','web','Modern dental clinic website designed for clarity, trust, and patient engagement with fast performance and clean UI.'
+,['HTML','CSS','JavaScript'],'/simply.png','https://simplysmilezdental.in'],
+  [3,'Aldo Modular Furniture','web','Modern furniture business website showcasing modular designs, product collections, and company profile with fast performance.',['HTML','CSS','JavaScript'],'/aldo.png','https://aldomodularfurniture.com'],
   [7,'Taskforce Interiors','web','Interior design company website with premium visuals and structured sections.',['Next.js'],'/taskforce.png','https://taskforceinteriors.com'],
+  [5,'Strength and Exercise','web','Fitness and strength training website focused on exercise programs, performance improvement, and lead generation with fast loading speed.',['Next.js'],'/strength.png','https://strengthandexercise.com'],
+  [4,'Almo Laminates','web','Corporate laminate brand website showcasing products, applications, and company profile with a modern, responsive design.',['Wordpress'],'/almo.png','https://almolaminates.com'],
+  [6,'Shiva Roadlines','web','Logistics and transportation company website highlighting freight services, routes, and company capabilities with a clean, modern design.'
+,['HTML','CSS','JavaScript'],'/shiva.png','https://shivaroadlines.co.in'],
   [8,'Turbo Shop','web','Automotive turbo rebuild and repair services website with bold branding.',['Next.js'],'/turbo.png','https://turboshop.ca'],
 ];
 

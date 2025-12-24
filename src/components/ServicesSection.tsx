@@ -39,9 +39,10 @@ const ServicesSection = () => {
     },
     {
       icon: Smartphone,
-      title: 'Mobile App Development',
-      description: 'Native and cross-platform mobile applications that deliver seamless user experiences across all devices.',
-      features: ['iOS & Android', 'React Native', 'Flutter'],
+      title: 'Mobile Responsiveness',
+description: 'Fully responsive websites optimized for all screen sizes, ensuring smooth performance and consistent user experience across devices.',
+features: ['Mobile-First Design', 'Tablet Optimization', 'Cross-Browser Compatibility'],
+
     },
     {
       icon: Palette,

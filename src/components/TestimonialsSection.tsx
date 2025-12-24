@@ -26,40 +26,48 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'CEO, TechStart Inc.',
-      content: 'AM Software Solution transformed our business completely. Their team delivered a stunning web application that exceeded all our expectations. The attention to detail and commitment to quality is unmatched.',
-      rating: 5,
-      avatar: 'SJ',
-    },
-    {
-      name: 'Michael Chen',
-      role: 'Founder, InnovateLab',
-      content: 'Working with AM Software was an absolute pleasure. They understood our vision from day one and delivered a mobile app that our users love. Highly recommend their services!',
-      rating: 5,
-      avatar: 'MC',
-    },
-    {
-      name: 'Emily Rodriguez',
-      role: 'Marketing Director, GlobalBrand',
-      content: 'The e-commerce platform they built for us increased our online sales by 200%. Their expertise in UI/UX design really shows in the final product. Best decision we ever made.',
-      rating: 5,
-      avatar: 'ER',
-    },
-    {
-      name: 'David Thompson',
-      role: 'CTO, FinanceHub',
-      content: 'Their technical expertise is outstanding. They delivered our fintech dashboard on time and within budget. The codebase is clean, well-documented, and highly maintainable.',
-      rating: 5,
-      avatar: 'DT',
-    },
-    {
-      name: 'Lisa Wang',
-      role: 'Product Manager, HealthTech',
-      content: 'AM Software Solution helped us build a healthcare app that is both HIPAA compliant and user-friendly. Their team\'s dedication to understanding our complex requirements was impressive.',
-      rating: 5,
-      avatar: 'LW',
-    },
+  name: 'Amit Verma',
+  role: 'Founder, TechNova Solutions (India)',
+  content: 'AM Software Solution built a high-performance website for our company that looks great and works flawlessly across all devices. Their development approach is modern, scalable, and very reliable.',
+  rating: 5,
+  avatar: 'AV',
+},
+{
+  name: 'Neha Sharma',
+  role: 'Marketing Head, UrbanMart',
+  content: 'Our website traffic and engagement improved significantly after their mobile responsiveness and UI/UX improvements. The site now feels fast, clean, and easy to use on phones and tablets.',
+  rating: 5,
+  avatar: 'NS',
+},
+{
+  name: 'Rohit Mehta',
+  role: 'Co-Founder, RetailEase',
+  content: 'They delivered a complete e-commerce solution with smooth payment integration and easy inventory management. Sales increased within weeks of launch. Highly professional team.',
+  rating: 5,
+  avatar: 'RM',
+},
+{
+  name: 'Priya Nair',
+  role: 'Product Manager, FinCore Systems',
+  content: 'Their cloud and database expertise helped us build a secure and scalable backend. The system performs exceptionally well even under high traffic. Clean architecture and great documentation.',
+  rating: 5,
+  avatar: 'PN',
+},
+{
+  name: 'Suresh Patel',
+  role: 'Director, GrowthSpark Digital',
+  content: 'AM Software Solution handled our SEO and digital marketing with a clear strategy. We saw steady growth in search rankings, website traffic, and qualified leads.',
+  rating: 5,
+  avatar: 'SP',
+},
+{
+  name: 'Anjali Kapoor',
+  role: 'Business Owner, Kapoor Interiors',
+  content: 'They redesigned our website with a strong focus on UI/UX and responsiveness. Clients now find it easier to explore our services, and inquiries have increased noticeably.',
+  rating: 5,
+  avatar: 'AK',
+},
+
   ];
 
   const nextSlide = () => {

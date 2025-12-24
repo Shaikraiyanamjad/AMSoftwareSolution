@@ -24,38 +24,39 @@ const FAQSection = () => {
   }, []);
 
   const faqs = [
-    {
-      question: 'What services does AM Software Solution provide?',
-      answer: 'We offer comprehensive digital solutions including web development, mobile app development, UI/UX design, e-commerce development, SEO & digital marketing, and cloud & IT solutions. Our team specializes in creating custom solutions tailored to your specific business needs.',
-    },
-    {
-      question: 'How long does it typically take to complete a project?',
-      answer: 'Project timelines vary depending on complexity and scope. A simple website might take 2-4 weeks, while complex web applications or mobile apps can take 3-6 months. We provide detailed timelines during our initial consultation and keep you updated throughout the development process.',
-    },
-    {
-      question: 'What is your development process like?',
-      answer: 'We follow an agile development methodology that includes: Discovery & Planning, Design & Prototyping, Development, Testing & QA, Deployment, and ongoing Support & Maintenance. This ensures transparent communication and allows for flexibility throughout the project.',
-    },
-    {
-      question: 'Do you provide post-launch support and maintenance?',
-      answer: 'Absolutely! We offer comprehensive post-launch support packages that include bug fixes, security updates, performance optimization, and feature enhancements. Our team is available to ensure your application runs smoothly long after launch.',
-    },
-    {
-      question: 'How do you handle project pricing?',
-      answer: 'We offer flexible pricing models including fixed-price projects, hourly rates, and dedicated team arrangements. After understanding your requirements, we provide a detailed proposal with transparent pricing. We believe in fair pricing that reflects the value we deliver.',
-    },
-    {
-      question: 'Can you work with our existing team or systems?',
-      answer: 'Yes, we frequently collaborate with in-house teams and integrate with existing systems. Whether you need us to lead the project, augment your team, or work alongside your developers, we adapt to your preferred working arrangement.',
-    },
-    {
-      question: 'What technologies do you specialize in?',
-      answer: 'We work with modern technologies including React, Next.js, Vue.js, Node.js, Python, React Native, Flutter, AWS, Azure, and more. Our team stays current with industry trends to deliver cutting-edge solutions that stand the test of time.',
-    },
-    {
-      question: 'How do we get started with a project?',
-      answer: 'Getting started is easy! Simply contact us through our website form, email, or phone. We\'ll schedule a free consultation to discuss your requirements, goals, and vision. From there, we\'ll provide a proposal and project roadmap to kickstart your digital transformation.',
-    },
+   {
+  question: 'What services does AM Software Solution provide?',
+  answer: 'We provide end-to-end digital solutions including website development, mobile-responsive design, UI/UX design, e-commerce development, SEO & digital marketing, and cloud & database solutions. All our services are tailored to meet your specific business goals.',
+},
+{
+  question: 'How long does it typically take to complete a project?',
+  answer: 'Project timelines depend on the scope and complexity. A standard business website usually takes 2–4 weeks, while larger web platforms or e-commerce solutions may take 6–12 weeks. We share a clear timeline before starting and keep you informed at every stage.',
+},
+{
+  question: 'What is your development process like?',
+  answer: 'Our process includes requirement analysis, UI/UX design, development, testing, deployment, and ongoing support. We follow a structured and transparent workflow to ensure quality, timely delivery, and smooth collaboration.',
+},
+{
+  question: 'Do you provide post-launch support and maintenance?',
+  answer: 'Yes, we offer reliable post-launch support including bug fixes, performance optimization, security updates, and feature enhancements. Our maintenance plans ensure your website remains fast, secure, and up to date.',
+},
+{
+  question: 'How do you handle project pricing?',
+  answer: 'We offer flexible pricing based on project requirements, including fixed pricing and hourly models. After understanding your needs, we provide a detailed proposal with transparent costs and no hidden charges.',
+},
+{
+  question: 'Can you work with our existing website or systems?',
+  answer: 'Absolutely. We can improve, redesign, or extend your existing website and integrate with current systems. We also collaborate smoothly with in-house teams when required.',
+},
+{
+  question: 'What technologies do you specialize in?',
+  answer: 'We specialize in modern web technologies such as React, Next.js, Node.js, Python, WordPress, Shopify, AWS, cloud databases, and SEO tools. We choose the right technology stack based on your project needs.',
+},
+{
+  question: 'How do we get started with a project?',
+  answer: 'You can get started by contacting us through our website, email, or phone. We offer a free consultation to understand your requirements and then share a clear project plan to move forward.',
+},
+
   ];
 
   return (

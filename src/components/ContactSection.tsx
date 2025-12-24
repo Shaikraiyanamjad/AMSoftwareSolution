@@ -92,20 +92,18 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+1 (234) 567-890',
-      subContent: '+1 (234) 567-891',
+      content: '+91 40 4954 1452',
     },
     {
       icon: Mail,
       title: 'Email Us',
       content: 'info@amsoftware.com',
-      subContent: 'support@amsoftware.com',
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: '123 Tech Street, Suite 100',
-      subContent: 'San Francisco, CA 94105',
+      content: '11-4-658 Mustafa Towers Unit 203/C 2nd Floor, Lakdi ka pool',
+      subContent: 'Hyderabad 500004',
     },
     {
       icon: Clock,
@@ -185,7 +183,7 @@ const ContactSection = () => {
                         className={`w-full px-4 py-3 rounded-xl bg-muted/50 border ${
                           errors.name ? 'border-destructive' : 'border-border'
                         } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all`}
-                        placeholder="John Doe"
+                        placeholder="Your name"
                       />
                       {errors.name && <p className="mt-1 text-sm text-destructive">{errors.name}</p>}
                     </div>
@@ -204,7 +202,7 @@ const ContactSection = () => {
                         className={`w-full px-4 py-3 rounded-xl bg-muted/50 border ${
                           errors.email ? 'border-destructive' : 'border-border'
                         } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all`}
-                        placeholder="john@example.com"
+                        placeholder="your@example.com"
                       />
                       {errors.email && <p className="mt-1 text-sm text-destructive">{errors.email}</p>}
                     </div>
@@ -221,7 +219,7 @@ const ContactSection = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-xl bg-muted/50 border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                        placeholder="+1 (234) 567-890"
+                        placeholder="+91 12 3456 7890"
                       />
                     </div>
 
@@ -239,7 +237,8 @@ const ContactSection = () => {
                       >
                         <option value="">Select a subject</option>
                         <option value="web">Web Development</option>
-                        <option value="mobile">Mobile App Development</option>
+                        <option value="mobile">Website Redesign</option>
+                        <option value="SEO">SEO</option>
                         <option value="design">UI/UX Design</option>
                         <option value="ecommerce">E-commerce</option>
                         <option value="other">Other</option>
